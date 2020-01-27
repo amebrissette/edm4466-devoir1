@@ -1,5 +1,5 @@
 l1 = list(range(20000,30151))
-print(l1, len(l1))
+print(l1)
 
 for url in l1: 
     print("https://montrealcampus.ca/?p=" + str(url))
